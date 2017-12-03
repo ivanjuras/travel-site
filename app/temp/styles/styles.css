@@ -1,0 +1,5 @@
+body {
+    background: blue;
+    -webkit-columns: 300px 1;
+            columns: 300px 1;
+}
