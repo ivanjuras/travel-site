@@ -1,5 +1,10 @@
 body {
-    background: blue;
+    background: #323456;
     -webkit-columns: 300px 1;
             columns: 300px 1;
 }
+
+box a {
+        display: block;
+        padding: 10px;
+    }

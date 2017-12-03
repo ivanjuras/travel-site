@@ -1,4 +1,13 @@
+$tomato: #323456;
+
 body {
-    background: blue;
+    background: $tomato;
     columns: 300px 1;
+}
+
+box {
+    a {
+        display: block;
+        padding: 10px;
+    }
 }
