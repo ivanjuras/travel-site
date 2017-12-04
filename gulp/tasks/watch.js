@@ -6,6 +6,7 @@ var gulp = require('gulp'),
 gulp.task('watch', function () {
     browserSync.init({
         notify: false,
+        reloadDelay: 500,
         server: {
             baseDir: 'app'
         }
